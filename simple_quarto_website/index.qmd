@@ -1,0 +1,83 @@
+---
+title: "simple_quarto_website"
+toc: true
+toc-depth: 2
+bibliography: reference.bib
+
+---
+
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Welcome to Quan's Quarto Project
+
+## Section 1: What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### Two columns and bullets points
+- survived not only five centuries
+- leap into electronic typesetting
+
+:::: {.columns}
+
+::: {.column width="40%"}
+1960s: with the release of Letraset sheets containing Lorem Ipsum passages
+:::
+
+::: {.column width="60%"}
+Recently: desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+:::
+
+::::
+
+
+###  Markdown table
+| Name    | Year | Age   | Sex    |
+|---------|:-----|------:|:------:|
+| Avery   |  2001|    22 |    F   |
+| Mike    | 2002 |   21  |    M   |
+| Joy     | 2002 |   21  |   F    |
+
+: Demonstration of pipe table syntax
+
+## Section 2: Where does it come from?
+
+### inline-math LaTex equation
+$S=vt^5
+
+###  not inline-math LaTex equation
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$
+
+###  footnotes 
+I love dog so much,[^1] and so do I[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+### quoto
+> 'Love u too' -- Friend
+
+### images
+![Cute dog Chai](images/image1.jpg)
+
+![Cute dog Qiu](images/image2.jpg)
+
+### video
+{{< video https://www.youtube.com/watch?v=tkzwXX53qQ8 >}}
+
+## Section 3: Why do we use it?
+
+### mermaid diagram
+
+```{mermaid}
+flowchart LR
+  A[Dog] --> B(Cute dog)
+  B --> C{Species}
+  C --> D[Shiba]
+  C --> E[Akita]
+```
+
+@wickham2016data says data science is good.

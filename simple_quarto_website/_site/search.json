@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "What is Lorem Ipsum?\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n\nDraw a plot\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Generate some random data for a scatter plot\nnp.random.seed(42)\nx = np.random.rand(50)\ny = np.random.rand(50)\n\n# Create a scatter plot\nplt.figure(figsize=(8, 4))\nplt.scatter(x, y, color='blue', label='Random Data')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Scatter Plot of Random Data')\nplt.legend()\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#section-1-what-is-lorem-ipsum",
+    "href": "index.html#section-1-what-is-lorem-ipsum",
+    "title": "simple_quarto_website",
+    "section": "Section 1: What is Lorem Ipsum?",
+    "text": "Section 1: What is Lorem Ipsum?\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\nTwo columns and bullets points\n\nsurvived not only five centuries\nleap into electronic typesetting\n\n\n\n1960s: with the release of Letraset sheets containing Lorem Ipsum passages\n\nRecently: desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum\n\n\n\n\nMarkdown table\n\nDemonstration of pipe table syntax\n\n\nName\nYear\nAge\nSex\n\n\n\n\nAvery\n2001\n22\nF\n\n\nMike\n2002\n21\nM\n\n\nJoy\n2002\n21\nF"
+  },
+  {
+    "objectID": "index.html#section-2-where-does-it-come-from",
+    "href": "index.html#section-2-where-does-it-come-from",
+    "title": "simple_quarto_website",
+    "section": "Section 2: Where does it come from?",
+    "text": "Section 2: Where does it come from?\n\ninline-math LaTex equation\n$S=vt^5\n\n\nnot inline-math LaTex equation\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\n\n\nfootnotes\nI love dog so much,1 and so do I2\n\n\nquoto\n\n‘Love u too’ – Friend\n\n\n\nimages\n\n\n\nCute dog Chai\n\n\n\n\n\nCute dog Qiu\n\n\n\n\nvideo"
+  },
+  {
+    "objectID": "index.html#section-3-why-do-we-use-it",
+    "href": "index.html#section-3-why-do-we-use-it",
+    "title": "simple_quarto_website",
+    "section": "Section 3: Why do we use it?",
+    "text": "Section 3: Why do we use it?\n\nmermaid diagram\n\n\n\n\nflowchart LR\n  A[Dog] --&gt; B(Cute dog)\n  B --&gt; C{Species}\n  C --&gt; D[Shiba]\n  C --&gt; E[Akita]\n\n\n\n\n\nWickham (2016) says data science is good."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#my-dog",
+    "href": "slides/slides.html#my-dog",
+    "title": "My pre",
+    "section": "My dog",
+    "text": "My dog\n\nMy cute puppy\nMy baby"
+  },
+  {
+    "objectID": "slides/slides.html#going-to-sleep",
+    "href": "slides/slides.html#going-to-sleep",
+    "title": "My pre",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\n\nCute dog Qiu"
+  },
+  {
+    "objectID": "slides/slides.html#code",
+    "href": "slides/slides.html#code",
+    "title": "My pre",
+    "section": "Code",
+    "text": "Code\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(42)\nx = np.random.rand(50)\ny = np.random.rand(50)\nplt.figure(figsize=(8, 4))\nplt.scatter(x, y, color='blue', label='Random Data')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Scatter Plot of Random Data')\nplt.legend()\nplt.grid(True)\nplt.show()\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(42)\nx = np.random.rand(50)\ny = np.random.rand(50)\nplt.figure(figsize=(8, 4))\nplt.scatter(x, y, color='blue', label='Random Data')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Scatter Plot of Random Data')\nplt.legend()\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "My pre",
+    "section": "References",
+    "text": "References\nSee Wickham (2016) for an illustration.\n\n\n\n\n\n\nWickham. 2016. Data Analysis. Springer."
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "My pre",
+    "section": "",
+    "text": "My cute puppy\nMy baby"
+  }
+]
